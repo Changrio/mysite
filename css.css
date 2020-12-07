@@ -1,95 +1,50 @@
-* {
-	box-sizing: border-box;
+body{
+	font-size: 16px;
+	color:#fadcaa;
+	background-color:#61122f;
+	font-family:sans-serif;
 }
 
-h1 {
-	text-align: center;
+.selector-for-some-widget {
+  box-sizing: content-box;
 }
 
-.contents {
-	margin:auto;
-	clear:right;
+#header-nav{
+	background-color: #f6b319;
+	border-radius:0;
+	border:0;
 }
 
-#title1 {
-	background-color: #efbbcf;
-	float:right;
-	text-align: center;
-	color:black;
-	font-family: "Helvetica";
-	font-size: 24px;
-	border:1px solid black;
-	padding:10px;
-	width:220px;
-	height:44px;
+#companyname{
+	font-color:#f6b319;
+	font-size:30px;
 }
 
-#title2 {
-	background-color: #c3aed6;
-	float:right;
-	text-align: center;
-	color:black;
-	font-family: "Helvetica";
-	font-size: 24px;
-	border:1px solid black;
-	padding:10px;
-	width:220px;
-	height:44px;
+.row{
+	margin-left:10px;
+	margin-right:10px;
 }
 
-#title3 {
-	background-color:#8675a9;
-	float:right;
-	text-align: center;
-	color:white;
-	font-family: "Helvetica";
-	font-size: 24px;
-	border:1px solid black;
-	padding:10px;
-	width:220px;
-	height:44px;
+.title{
+	font-size:24px;
+	text-align:center;
 }
 
-@media (min-width:992px) {
-	.col-lg-4 {	
-		float:left;
-		border:1px solid black;
-		margin:10px;
-		padding:10px;
-		background-color:#ffd5cd;
-	    width: 30%;
-  }
+.contents{
+	padding:15px;
 }
 
-
-@media (min-width: 768px) and (max-width: 991px) {
-   .col-md-6 {
-    float:left;
-    border:1px solid black;
+.col-lg-12{
+	background-color:#c56183;
 	margin:10px;
-	padding:10px;
-	background-color:#ffd5cd;
-    width: 45%;
-	}
-
-  .col-md-12 {
-  	float:left;
-    border:1px solid black;
-	margin:10px;
-	padding:10px;
-	background-color:#ffd5cd;
-    width: 92%;
-  }
 }
 
-@media (max-width: 767px){
-	.col-sm-12 {
-	border:1px solid black;
+.col-md-12{
+	background-color:#c56183;
 	margin:10px;
-	padding:10px;
-	background-color:#ffd5cd;
-	width: 95%;
-	}
+}
 
-
+.col-sm-12{
+	background-color:#c56183;
+	margin:10px;
 }
